@@ -120,10 +120,12 @@
   <ItemGroup>
     <ClInclude Include="Engine.h" />
     <ClInclude Include="GameLoop.h" />
+    <ClInclude Include="InputLoop.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Engine.cpp" />
     <ClCompile Include="GameLoop.cpp" />
+    <ClCompile Include="InputLoop.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

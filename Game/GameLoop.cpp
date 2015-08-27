@@ -35,7 +35,6 @@ void GameLoop::loop()
 		current = clock();
 		lag += current - prev;
 		prev = current;
-		parent->input();
 		while (lag >= deltaT * CLOCKS_PER_SEC && keepRunning) {
 			lag -= deltaT * CLOCKS_PER_SEC;
 			parent->physics();
